@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tanatoria — Catálogo</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+  <style>
+    :root{
+      --ink:#130F0D; --ink2:#1A1512; --garnet:#6E1423; --gold:#B8925A; --gold-light:#D3B37F;
+      --bone:#EFE6D8; --bone2:#F7F2E7; --muted:#8a7f6d;
+    }
+    *{ box-sizing:border-box; }
+    body{ margin:0; font-family:'EB Garamond', Georgia, serif; color:var(--ink2); background:var(--bone2); }
+    a{ color:var(--garnet); text-decoration:none; } a:hover{ color:var(--gold); }
+    h1,h2,h3{ font-family:'Cinzel', Georgia, serif; margin:0; }
+    .wrap{ max-width:1180px; margin:0 auto; padding:0 40px; }
+    .btn{ display:inline-flex; align-items:center; justify-content:center; height:52px; padding:0 30px; border-radius:2px;
+      font-family:'Cinzel', serif; font-size:13px; letter-spacing:1.5px; text-transform:uppercase; cursor:pointer; white-space:nowrap; }
+    .btn-solid{ background:var(--gold); color:var(--ink); border:1px solid var(--gold); }
+    .eyebrow{ display:flex; align-items:center; gap:9px; font-family:'Cinzel',serif; font-size:12px; letter-spacing:3px;
+      text-transform:uppercase; color:var(--garnet); margin-bottom:16px; font-weight:600; }
+    .eyebrow.on-dark{ color:var(--gold); }
+    .eyebrow svg{ width:12px; height:12px; flex:none; margin-top:1px; }
+    @media (max-width:640px){
+      .wrap{ padding:0 22px; }
+      .nav-links{ display:none !important; }
+      .grid-3{ grid-template-columns:1fr !important; }
+      .info-strip{ grid-template-columns:1fr !important; }
+      .footer-cols{ flex-direction:column !important; gap:36px !important; }
+    }
+  </style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+<defs>
+  <symbol id="i-arch" viewBox="0 0 100 100"><path d="M20,90 A60,60 0 0 1 50,38 A60,60 0 0 1 80,90 Z"/></symbol>
+</defs>
+</svg>
+
+<!-- ============ NAV ============ -->
+<div style="position:sticky; top:0; z-index:10; background:var(--ink); border-bottom:1px solid rgba(184,146,90,0.18);">
+  <div class="wrap" style="display:flex; align-items:center; justify-content:space-between; height:78px;">
+    <div style="display:flex; align-items:center; gap:10px;">
+      <svg viewBox="0 0 100 100" fill="#B8925A" style="width:20px; height:20px;"><use href="#i-arch"/></svg>
+      <span style="font-family:'Cinzel',serif; font-size:16px; letter-spacing:3px; color:var(--bone); font-weight:600;">TANATORIA</span>
+    </div>
+    <div class="nav-links" style="display:flex; align-items:center; gap:38px;">
+      <a href="index.html#quienes-somos" style="font-family:'Cinzel',serif; font-size:11.5px; letter-spacing:1.5px; text-transform:uppercase; color:var(--bone);">Quiénes somos</a>
+      <a href="catalogo.html" style="font-family:'Cinzel',serif; font-size:11.5px; letter-spacing:1.5px; text-transform:uppercase; color:var(--gold);">Catálogo</a>
+      <a href="servicios.html" style="font-family:'Cinzel',serif; font-size:11.5px; letter-spacing:1.5px; text-transform:uppercase; color:var(--bone);">Servicios</a>
+      <a href="sumision.html" style="font-family:'Cinzel',serif; font-size:11.5px; letter-spacing:1.5px; text-transform:uppercase; color:var(--bone);">Sumisión</a>
+    </div>
+    <a href="sumision.html" class="btn btn-solid" style="height:42px; padding:0 22px; font-size:11.5px;">Envía tu manuscrito</a>
+  </div>
+</div>
+
+<!-- ============ PAGE HERO ============ -->
+<div style="background:var(--ink); padding:96px 0 84px;">
+  <div class="wrap">
+    <div class="eyebrow on-dark"><svg viewBox="0 0 100 100" fill="#B8925A"><use href="#i-arch"/></svg>Catálogo</div>
+    <h1 style="font-size:46px; line-height:1.15; color:var(--bone); font-weight:600; max-width:640px;">El catálogo empieza contigo</h1>
+    <p style="font-size:16.5px; line-height:1.65; color:#DCD3C3; max-width:600px; margin-top:20px;">Tanatoria todavía no ha publicado su primer título — estamos preparando la primera convocatoria abierta de manuscritos de narrativa y cómic de terror. Aquí es donde aparecerán, uno a uno.</p>
+  </div>
+</div>
+
+<!-- ============ PRIMERA CONVOCATORIA ============ -->
+<div style="background:var(--bone2); padding:64px 0;">
+  <div class="wrap">
+    <div class="info-strip" style="display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:rgba(110,20,35,0.15); border:1px solid rgba(110,20,35,0.15);">
+      <div style="background:var(--bone2); padding:30px 34px;">
+        <div style="font-family:'Cinzel',serif; font-size:10.5px; letter-spacing:1.5px; text-transform:uppercase; color:var(--garnet); margin-bottom:10px;">Qué buscamos</div>
+        <div style="font-size:15px; line-height:1.5; color:var(--ink2);">Narrativa y cómic de terror y lo gótico, con Poe como referencia</div>
+      </div>
+      <div style="background:var(--bone2); padding:30px 34px;">
+        <div style="font-family:'Cinzel',serif; font-size:10.5px; letter-spacing:1.5px; text-transform:uppercase; color:var(--garnet); margin-bottom:10px;">Formato de envío</div>
+        <div style="font-size:15px; line-height:1.5; color:var(--ink2);">Manuscrito en .docx o .pdf, con sinopsis y bio breve — <a href="sumision.html" style="font-size:14px;">ver bases completas</a></div>
+      </div>
+      <div style="background:var(--bone2); padding:30px 34px;">
+        <div style="font-family:'Cinzel',serif; font-size:10.5px; letter-spacing:1.5px; text-transform:uppercase; color:var(--garnet); margin-bottom:10px;">Plazo</div>
+        <div style="font-size:15px; line-height:1.5; color:var(--ink2);">Convocatoria abierta, sin fecha de cierre — leemos todo el año.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ PLANTILLA DE FICHA ============ -->
+<div style="background:var(--bone); padding:100px 0;">
+  <div class="wrap">
+    <div class="eyebrow"><svg viewBox="0 0 100 100" fill="#6E1423"><use href="#i-arch"/></svg>Así se verá cada título</div>
+    <h2 style="font-size:30px; color:var(--ink2); margin-bottom:16px; font-weight:600;">Plantilla de ficha de catálogo</h2>
+    <p style="font-size:15px; line-height:1.6; color:#4a4238; max-width:600px; margin-bottom:48px;">El primero es una portada ya terminada, dentro del marco fijo de Tanatoria — a modo de ejemplo de diseño, todavía no forma parte del catálogo publicado. Los otros dos siguen siendo solo maqueta de la ficha.</p>
+
+    <div class="grid-3" style="display:grid; grid-template-columns:repeat(3,1fr); gap:30px;">
+      <div>
+        <div style="aspect-ratio:3/4.5; border-radius:2px; overflow:hidden; margin-bottom:18px; box-shadow:0 14px 30px rgba(19,15,13,0.25);">
+          <img src="dracula-cover.jpg" alt="Portada de ejemplo — Drácula, Bram Stoker" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </div>
+        <div style="display:inline-block; font-family:'Cinzel',serif; font-size:9.5px; letter-spacing:1px; text-transform:uppercase; color:var(--garnet); border:1px solid var(--garnet); border-radius:20px; padding:4px 12px; margin-bottom:12px;">Narrativa · Clásico</div>
+        <div style="font-family:'Cinzel',serif; font-size:16px; color:var(--ink2); font-weight:600; margin-bottom:6px;">Drácula</div>
+        <div style="font-size:13.5px; font-style:italic; color:var(--muted);">Bram Stoker — ejemplo de diseño</div>
+      </div>
+      <div>
+        <div style="aspect-ratio:3/4.5; border:1px dashed rgba(110,20,35,0.35); border-radius:2px; background:var(--bone2); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; margin-bottom:18px;">
+          <svg viewBox="0 0 100 100" fill="rgba(110,20,35,0.4)" style="width:24px; height:24px;"><use href="#i-arch"/></svg>
+          <span style="font-family:'Cinzel',serif; font-size:9.5px; letter-spacing:1.5px; text-transform:uppercase; color:var(--muted);">Portada de ejemplo</span>
+        </div>
+        <div style="display:inline-block; font-family:'Cinzel',serif; font-size:9.5px; letter-spacing:1px; text-transform:uppercase; color:var(--garnet); border:1px solid var(--garnet); border-radius:20px; padding:4px 12px; margin-bottom:12px;">Cómic</div>
+        <div style="font-family:'Cinzel',serif; font-size:16px; color:var(--ink2); font-weight:600; margin-bottom:6px;">Título de la obra</div>
+        <div style="font-size:13.5px; font-style:italic; color:var(--muted);">Nombre del autor o autora</div>
+      </div>
+      <div>
+        <div style="aspect-ratio:3/4.5; border:1px dashed rgba(110,20,35,0.35); border-radius:2px; background:var(--bone2); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; margin-bottom:18px;">
+          <svg viewBox="0 0 100 100" fill="rgba(110,20,35,0.4)" style="width:24px; height:24px;"><use href="#i-arch"/></svg>
+          <span style="font-family:'Cinzel',serif; font-size:9.5px; letter-spacing:1.5px; text-transform:uppercase; color:var(--muted);">Portada de ejemplo</span>
+        </div>
+        <div style="display:inline-block; font-family:'Cinzel',serif; font-size:9.5px; letter-spacing:1px; text-transform:uppercase; color:var(--garnet); border:1px solid var(--garnet); border-radius:20px; padding:4px 12px; margin-bottom:12px;">Narrativa</div>
+        <div style="font-family:'Cinzel',serif; font-size:16px; color:var(--ink2); font-weight:600; margin-bottom:6px;">Título de la obra</div>
+        <div style="font-size:13.5px; font-style:italic; color:var(--muted);">Nombre del autor o autora</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ CTA ============ -->
+<div id="sumision" style="background:var(--garnet); padding:96px 0;">
+  <div class="wrap" style="display:flex; align-items:center; justify-content:space-between; gap:60px; flex-wrap:wrap;">
+    <div style="max-width:600px;">
+      <h2 style="font-size:28px; color:var(--bone); margin-bottom:14px; font-weight:600;">¿Quieres ser de los primeros en el catálogo?</h2>
+      <p style="font-size:15px; line-height:1.6; color:#EAD9CF; margin:0;">Antes de abrir la convocatoria pública, ya puedes enviarnos tu manuscrito de narrativa o cómic de terror.</p>
+    </div>
+    <a href="sumision.html" class="btn" style="background:var(--bone); color:var(--garnet); border:1px solid var(--bone); flex:none;">Envía tu manuscrito</a>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<div style="background:var(--ink); padding:80px 0 34px;">
+  <div class="wrap">
+    <div class="footer-cols" style="display:flex; justify-content:space-between; gap:60px; padding-bottom:56px; border-bottom:1px solid rgba(184,146,90,0.18);">
+      <div style="max-width:280px;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
+          <svg viewBox="0 0 100 100" fill="#B8925A" style="width:18px; height:18px;"><use href="#i-arch"/></svg>
+          <span style="font-family:'Cinzel',serif; font-size:15px; letter-spacing:3px; color:var(--bone); font-weight:600;">TANATORIA</span>
+        </div>
+        <p style="font-style:italic; font-size:13px; letter-spacing:1px; color:var(--gold); text-transform:uppercase; margin:0;">Ediciones de lo oscuro</p>
+      </div>
+      <div style="display:flex; gap:70px; flex-wrap:wrap;">
+        <div>
+          <div style="font-family:'Cinzel',serif; font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--gold); margin-bottom:16px;">Explora</div>
+          <div style="display:flex; flex-direction:column; gap:11px;">
+            <a href="index.html#quienes-somos" style="font-size:13.5px; color:#DCD3C3;">Quiénes somos</a>
+            <a href="catalogo.html" style="font-size:13.5px; color:#DCD3C3;">Catálogo</a>
+            <a href="servicios.html" style="font-size:13.5px; color:#DCD3C3;">Servicios</a>
+            <a href="sumision.html" style="font-size:13.5px; color:#DCD3C3;">Sumisión de manuscritos</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-family:'Cinzel',serif; font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--gold); margin-bottom:16px;">Contacto</div>
+          <div style="display:flex; flex-direction:column; gap:11px;">
+            <span style="font-size:13.5px; color:#DCD3C3;">Contacto: Alberto C.R.</span>
+            <span style="font-size:13.5px; font-style:italic; color:#8a7f6d;">[ redes sociales — próximamente ]</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="padding-top:28px; font-size:12px; color:#6f6656;">© 2026 Tanatoria. Ediciones de lo oscuro.</div>
+  </div>
+</div>
+</body>
+</html>
